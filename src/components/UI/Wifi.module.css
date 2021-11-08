@@ -1,0 +1,1441 @@
+.circle-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.circle {
+  padding: 4px;
+  border: 11px solid transparent;
+  border-top: 11px solid #d1e1e6;
+  border-radius: 230px;
+  margin-top: 4px;
+}
+
+.one0rise {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two0rise {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+}
+
+.three0rise {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+}
+
+.four0rise {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+}
+
+.five0rise {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+}
+
+.six0rise {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+}
+
+.seven0rise {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+}
+
+.eight0rise {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+}
+
+.nine0rise {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+}
+
+.ten0rise {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+}
+
+.one0fall {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two0fall {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+}
+
+.three0fall {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+}
+
+.four0fall {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+}
+
+.five0fall {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+}
+
+.six0fall {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+}
+
+.seven0fall {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+}
+
+.eight0fall {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+}
+
+.nine0fall {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+}
+
+.ten0fall {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+}
+
+.one10rise {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two10rise {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+}
+
+.three10rise {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+}
+
+.four10rise {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+}
+
+.five10rise {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+}
+
+.six10rise {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+}
+
+.seven10rise {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+}
+
+.eight10rise {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+}
+
+.nine10rise {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+}
+
+.ten10rise {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #4cad51;
+}
+
+.one10fall {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two10fall {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+}
+
+.three10fall {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+}
+
+.four10fall {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+}
+
+.five10fall {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+}
+
+.six10fall {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+}
+
+.seven10fall {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+}
+
+.eight10fall {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+}
+
+.nine10fall {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+}
+
+.ten10fall {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #d91616;
+}
+
+.one20rise {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two20rise {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+}
+
+.three20rise {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+}
+
+.four20rise {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+}
+
+.five20rise {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+}
+
+.six20rise {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+}
+
+.seven20rise {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+}
+
+.eight20rise {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+}
+
+.nine20rise {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+  border-top-color: #4cad51;
+}
+
+.ten20rise {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #4cad51;
+}
+
+.one20fall {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two20fall {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+}
+
+.three20fall {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+}
+
+.four20fall {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+}
+
+.five20fall {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+}
+
+.six20fall {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+}
+
+.seven20fall {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+}
+
+.eight20fall {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+}
+
+.nine20fall {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+  border-top-color: #d91616;
+}
+
+.ten20fall {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #d91616;
+}
+
+.one30rise {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two30rise {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+}
+
+.three30rise {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+}
+
+.four30rise {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+}
+
+.five30rise {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+}
+
+.six30rise {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+}
+
+.seven30rise {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+}
+
+.eight30rise {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+  border-top-color: #4cad51;
+}
+
+.nine30rise {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+  border-top-color: #4cad51;
+}
+
+.ten30rise {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #4cad51;
+}
+
+.one30fall {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two30fall {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+}
+
+.three30fall {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+}
+
+.four30fall {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+}
+
+.five30fall {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+}
+
+.six30fall {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+}
+
+.seven30fall {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+}
+
+.eight30fall {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+  border-top-color: #d91616;
+}
+
+.nine30fall {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+  border-top-color: #d91616;
+}
+
+.ten30fall {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #d91616;
+}
+
+.one40rise {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two40rise {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+}
+
+.three40rise {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+}
+
+.four40rise {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+}
+
+.five40rise {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+}
+
+.six40rise {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+}
+
+.seven40rise {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+  border-top-color: #4cad51;
+}
+
+.eight40rise {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+  border-top-color: #4cad51;
+}
+
+.nine40rise {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+  border-top-color: #4cad51;
+}
+
+.ten40rise {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #4cad51;
+}
+
+.one40fall {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two40fall {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+}
+
+.three40fall {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+}
+
+.four40fall {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+}
+
+.five40fall {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+}
+
+.six40fall {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+}
+
+.seven40fall {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+  border-top-color: #d91616;
+}
+
+.eight40fall {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+  border-top-color: #d91616;
+}
+
+.nine40fall {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+  border-top-color: #d91616;
+}
+
+.ten40fall {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #d91616;
+}
+
+.one50rise {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two50rise {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+}
+
+.three50rise {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+}
+
+.four50rise {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+}
+
+.five50rise {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+}
+
+.six50rise {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+  border-top-color: #4cad51;
+}
+
+.seven50rise {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+  border-top-color: #4cad51;
+}
+
+.eight50rise {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+  border-top-color: #4cad51;
+}
+
+.nine50rise {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+  border-top-color: #4cad51;
+}
+
+.ten50rise {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #4cad51;
+}
+
+.one50fall {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two50fall {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+}
+
+.three50fall {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+}
+
+.four50fall {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+}
+
+.five50fall {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+}
+
+.six50fall {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+  border-top-color: #d91616;
+}
+
+.seven50fall {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+  border-top-color: #d91616;
+}
+
+.eight50fall {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+  border-top-color: #d91616;
+}
+
+.nine50fall {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+  border-top-color: #d91616;
+}
+
+.ten50fall {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #d91616;
+}
+
+.one60rise {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two60rise {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+}
+
+.three60rise {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+}
+
+.four60rise {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+}
+
+.five60rise {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+  border-top-color: #4cad51;
+}
+
+.six60rise {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+  border-top-color: #4cad51;
+}
+
+.seven60rise {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+  border-top-color: #4cad51;
+}
+
+.eight60rise {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+  border-top-color: #4cad51;
+}
+
+.nine60rise {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+  border-top-color: #4cad51;
+}
+
+.ten60rise {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #4cad51;
+}
+
+.one60fall {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two60fall {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+}
+
+.three60fall {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+}
+
+.four60fall {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+}
+
+.five60fall {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+  border-top-color: #d91616;
+}
+
+.six60fall {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+  border-top-color: #d91616;
+}
+
+.seven60fall {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+  border-top-color: #d91616;
+}
+
+.eight60fall {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+  border-top-color: #d91616;
+}
+
+.nine60fall {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+  border-top-color: #d91616;
+}
+
+.ten60fall {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #d91616;
+}
+
+.one70rise {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two70rise {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+}
+
+.three70rise {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+}
+
+.four70rise {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+  border-top-color: #4cad51;
+}
+
+.five70rise {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+  border-top-color: #4cad51;
+}
+
+.six70rise {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+  border-top-color: #4cad51;
+}
+
+.seven70rise {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+  border-top-color: #4cad51;
+}
+
+.eight70rise {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+  border-top-color: #4cad51;
+}
+
+.nine70rise {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+  border-top-color: #4cad51;
+}
+
+.ten70rise {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #4cad51;
+}
+
+.one70fall {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two70fall {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+}
+
+.three70fall {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+}
+
+.four70fall {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+  border-top-color: #d91616;
+}
+
+.five70fall {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+  border-top-color: #d91616;
+}
+
+.six70fall {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+  border-top-color: #d91616;
+}
+
+.seven70fall {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+  border-top-color: #d91616;
+}
+
+.eight70fall {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+  border-top-color: #d91616;
+}
+
+.nine70fall {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+  border-top-color: #d91616;
+}
+
+.ten70fall {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #d91616;
+}
+
+.one80rise {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two80rise {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+}
+
+.three80rise {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+  border-top-color: #4cad51;
+}
+
+.four80rise {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+  border-top-color: #4cad51;
+}
+
+.five80rise {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+  border-top-color: #4cad51;
+}
+
+.six80rise {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+  border-top-color: #4cad51;
+}
+
+.seven80rise {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+  border-top-color: #4cad51;
+}
+
+.eight80rise {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+  border-top-color: #4cad51;
+}
+
+.nine80rise {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+  border-top-color: #4cad51;
+}
+
+.ten80rise {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #4cad51;
+}
+
+.one80fall {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two80fall {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+}
+
+.three80fall {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+  border-top-color: #d91616;
+}
+
+.four80fall {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+  border-top-color: #d91616;
+}
+
+.five80fall {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+  border-top-color: #d91616;
+}
+
+.six80fall {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+  border-top-color: #d91616;
+}
+
+.seven80fall {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+  border-top-color: #d91616;
+}
+
+.eight80fall {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+  border-top-color: #d91616;
+}
+
+.nine80fall {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+  border-top-color: #d91616;
+}
+
+.ten80fall {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #d91616;
+}
+
+.one90rise {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two90rise {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+  border-top-color: #4cad51;
+}
+
+.three90rise {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+  border-top-color: #4cad51;
+}
+
+.four90rise {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+  border-top-color: #4cad51;
+}
+
+.five90rise {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+  border-top-color: #4cad51;
+}
+
+.six90rise {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+  border-top-color: #4cad51;
+}
+
+.seven90rise {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+  border-top-color: #4cad51;
+}
+
+.eight90rise {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+  border-top-color: #4cad51;
+}
+
+.nine90rise {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+  border-top-color: #4cad51;
+}
+
+.ten90rise {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #4cad51;
+}
+
+.one90fall {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+}
+
+.two90fall {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+  border-top-color: #d91616;
+}
+
+.three90fall {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+  border-top-color: #d91616;
+}
+
+.four90fall {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+  border-top-color: #d91616;
+}
+
+.five90fall {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+  border-top-color: #d91616;
+}
+
+.six90fall {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+  border-top-color: #d91616;
+}
+
+.seven90fall {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+}
+
+.eight90fall {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+  border-top-color: #d91616;
+}
+
+.nine90fall {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+  border-top-color: #d91616;
+}
+
+.ten90fall {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #d91616;
+}
+
+.one100rise {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+  border-top-color: #4cad51;
+}
+
+.two100rise {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+  border-top-color: #4cad51;
+}
+
+.three100rise {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+  border-top-color: #4cad51;
+}
+
+.four100rise {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+  border-top-color: #4cad51;
+}
+
+.five100rise {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+  border-top-color: #4cad51;
+}
+
+.six100rise {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+  border-top-color: #4cad51;
+}
+
+.seven100rise {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+  border-top-color: #4cad51;
+}
+
+.eight100rise {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+  border-top-color: #4cad51;
+}
+
+.nine100rise {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+  border-top-color: #4cad51;
+}
+
+.ten100rise {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #4cad51;
+}
+
+.one100fall {
+  transition-delay: 1600ms;
+  width: 300px;
+  height: 300px;
+  border-top-color: #d91616;
+}
+
+.two100fall {
+  transition-delay: 1450ms;
+  width: 270px;
+  height: 270px;
+  border-top-color: #d91616;
+}
+
+.three100fall {
+  transition-delay: 1300ms;
+  width: 240px;
+  height: 240px;
+  border-top-color: #d91616;
+}
+
+.four100fall {
+  transition-delay: 1050ms;
+  width: 210px;
+  height: 210px;
+  border-top-color: #d91616;
+}
+
+.five100fall {
+  transition-delay: 900ms;
+  width: 180px;
+  height: 180px;
+  border-top-color: #d91616;
+}
+
+.six100fall {
+  transition-delay: 750ms;
+  width: 150px;
+  height: 150px;
+  border-top-color: #d91616;
+}
+
+.seven100fall {
+  transition-delay: 600ms;
+  width: 120px;
+  height: 120px;
+  border-top-color: #d91616;
+}
+
+.eight100fall {
+  transition-delay: 450ms;
+  width: 90px;
+  height: 90px;
+  border-top-color: #d91616;
+}
+
+.nine100fall {
+  transition-delay: 300ms;
+  width: 60px;
+  height: 60px;
+  border-top-color: #d91616;
+}
+
+.ten100fall {
+  transition-delay: 150ms;
+  width: 30px;
+  height: 30px;
+  border-top-color: #d91616;
+}

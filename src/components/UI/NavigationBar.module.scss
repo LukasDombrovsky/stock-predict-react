@@ -1,0 +1,37 @@
+@import "../../variables";
+
+.navbar {
+  transition: all 0.5s ease-out;
+  text-align: left;
+
+  .nav-link {
+    font-size: 0.8rem;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .nav-link:hover {
+    color: $red !important;
+  }
+
+  .navbar-collapse {
+    justify-content: flex-start;
+
+    @media #{$sm} {
+      justify-content: flex-start;
+    }
+    @media #{$md} {
+      justify-content: flex-start;
+    }
+    @media #{$lg} {
+      justify-content: flex-end;
+    }
+    @media #{$xl} {
+      justify-content: flex-end;
+    }
+    @media #{$xxl} {
+      justify-content: flex-end;
+    }
+  }
+}

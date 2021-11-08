@@ -1,0 +1,104 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./variables";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+  font-size: 1rem;
+}
+
+p {
+  font-family: "Merriweather", "Helvetica Neue", Arial, sans-serif;
+}
+
+hr {
+  border-top: 3px solid #d91616;
+  opacity: 1;
+  width: 50px;
+  margin: 30px auto;
+}
+
+hr.white {
+  border-top: 3px solid white;
+}
+
+// Container classes
+.container-750 {
+  max-width: 750px !important;
+}
+
+.container-1000 {
+  max-width: 1000px;
+}
+
+.service-box {
+  margin-top: 20px;
+}
+// Container classes - end
+
+// Element classes
+.heading {
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.h2 {
+  font-size: 2rem;
+}
+
+.h3 {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: red !important;
+}
+// Element classes - end
+
+// Property classes
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-grey {
+  color: $grey;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.box-shadow {
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 30%);
+}
+
+// Property classes - end
