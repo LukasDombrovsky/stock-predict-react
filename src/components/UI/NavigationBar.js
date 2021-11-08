@@ -13,10 +13,7 @@ const NavigationBar = (props) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const show = window.scrollY > 50;
-      if (pageScrolled !== show) {
-        setPageScrolled(show);
-      }
+      setPageScrolled(window.scrollY > 50);
     };
 
     document.addEventListener("scroll", handleScroll);
