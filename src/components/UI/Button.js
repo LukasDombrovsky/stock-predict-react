@@ -4,14 +4,7 @@ import Btn from "react-bootstrap/Button";
 import classes from "./Button.module.scss";
 
 const Button = (props) => {
-  const {
-    type,
-    onClick,
-    textColor,
-    backgroundColor,
-    backgroundColorHover,
-    ...rest
-  } = props;
+  const { textColor, backgroundColor, backgroundColorHover, ...rest } = props;
 
   const [style, setStyle] = useState({
     backgroundColor: backgroundColor,
@@ -20,8 +13,6 @@ const Button = (props) => {
   return (
     <Btn
       className={classes.button}
-      type={type || "button"}
-      onClick={onClick}
       onMouseEnter={() => {
         setStyle({ backgroundColor: backgroundColorHover });
       }}

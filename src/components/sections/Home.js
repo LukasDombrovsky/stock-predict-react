@@ -1,17 +1,16 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { HashLink } from "react-router-hash-link";
 
 import Button from "../UI/Button";
 import SectionWithBgImage from "../UI/SectionWithBgImage";
-import classes from "./Header.module.scss";
+import classes from "./Home.module.scss";
 
 import bgImage from "../../img/cover.jpg";
 
-const Header = () => {
+const Home = () => {
   return (
-    <SectionWithBgImage bgImage={bgImage} className={classes.header}>
+    <SectionWithBgImage bgImage={bgImage} className={classes.home}>
       <Container className={`${classes["mg-top-4"]} container-1000`}>
         <Row>
           <Col className="d-flex justify-content-center">
@@ -35,18 +34,16 @@ const Header = () => {
         </Row>
         <Row>
           <Col className="d-flex justify-content-center">
-            <HashLink to="/#about">
-              <Button
-                as="div"
-                variant="primary"
-                type="button"
-                size="xl"
-                backgroundColor="#d91616"
-                backgroundColorHover="#ee4b28"
-              >
-                Find out more
-              </Button>
-            </HashLink>
+            {/* <HashLink to="/#about"> */}
+            <Button
+              type="button"
+              href="#about"
+              backgroundColor="#d91616"
+              backgroundColorHover="#ee4b28"
+            >
+              Find out more
+            </Button>
+            {/* </HashLink> */}
           </Col>
         </Row>
       </Container>
@@ -54,4 +51,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Home;

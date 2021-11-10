@@ -7,7 +7,6 @@ import { NavHashLink } from "react-router-hash-link";
 
 import classes from "./NavigationBar.module.scss";
 
-// Navigation bar with color change when scrolled and fixed on top of page
 const NavigationBar = (props) => {
   const [pageScrolled, setPageScrolled] = useState(false);
 
@@ -55,7 +54,7 @@ const NavigationBar = (props) => {
           : props.colors.notScrolled.borderBottom,
       }}
     >
-      <Container fluid={true}>
+      <Container fluid={props.fluid}>
         <Navbar.Brand
           className={classes["navbar-brand"]}
           href={props.homeLink}
@@ -65,7 +64,12 @@ const NavigationBar = (props) => {
               : props.colors.notScrolled.textColor,
           }}
         >
-          <img src={props.brand} alt="Twitter insights logo" />
+          {typeof props.brand === "string" &&
+          (props.brand.includes("jpg") || props.brand.includes("png")) ? (
+            <img src={props.brand} alt="Application logo" />
+          ) : (
+            props.brand
+          )}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse

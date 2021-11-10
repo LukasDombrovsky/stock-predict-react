@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import NavigationBar from "./components/UI/NavigationBar";
-import Header from "../src/components/sections/Header";
+import Home from "./components/sections/Home";
 import Section from "./components/UI/Section";
 import About from "./components/sections/About";
 import Indicators from "./components/sections/Indicators";
@@ -44,6 +44,7 @@ function App() {
           "contact",
         ]}
         expand="lg"
+        fluid
         colors={{
           notScrolled: {
             backgroundColor: "black",
@@ -58,7 +59,7 @@ function App() {
         }}
         activeTextColor="#d91616"
       />
-      <Header id="home" />
+      <Home id="home" />
       <Section id="about" backgroundColor="#d91616" mid-width>
         <About />
       </Section>

@@ -1,6 +1,5 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { HashLink } from "react-router-hash-link";
 
 import Button from "../UI/Button";
 
@@ -47,19 +46,15 @@ const About = () => {
       </Row>
       <Row>
         <Col className="d-flex justify-content-center">
-          <HashLink to="/#indicators">
-            <Button
-              as="div"
-              variant="primary"
-              type="button"
-              size="xl"
-              textColor="black"
-              backgroundColor="white"
-              backgroundColorHover="#f2f2f2"
-            >
-              Explore our indicators
-            </Button>
-          </HashLink>
+          <Button
+            type="button"
+            href="#indicators"
+            textColor="black"
+            backgroundColor="white"
+            backgroundColorHover="#f2f2f2"
+          >
+            Explore our indicators
+          </Button>
         </Col>
       </Row>
     </>

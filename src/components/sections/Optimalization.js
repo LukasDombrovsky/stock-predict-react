@@ -4,7 +4,6 @@ import Col from "react-bootstrap/Col";
 import Plotly from "plotly.js-basic-dist-min";
 import createPlotlyComponent from "react-plotly.js/factory";
 import Nav from "react-bootstrap/Nav";
-import { HashLink } from "react-router-hash-link";
 
 import Button from "../UI/Button";
 
@@ -163,10 +162,7 @@ const Optimalization = (props) => {
           Sorry. Loading of optimalization data for charts failed.
         </h4>
         <Button
-          as="div"
-          variant="primary"
           type="button"
-          size="xl"
           onClick={props.getData}
           backgroundColor="#d91616"
           backgroundColorHover="#ee4b28"
@@ -230,19 +226,15 @@ const Optimalization = (props) => {
       {content}
       <Row>
         <Col className="d-flex justify-content-center">
-          <HashLink to="/#predictions">
-            <Button
-              as="div"
-              variant="primary"
-              type="button"
-              size="xl"
-              textColor="black"
-              backgroundColor="white"
-              backgroundColorHover="#f2f2f2"
-            >
-              Show Current Predictions!
-            </Button>
-          </HashLink>
+          <Button
+            type="button"
+            href="#predictions"
+            textColor="black"
+            backgroundColor="white"
+            backgroundColorHover="#f2f2f2"
+          >
+            Show Current Predictions!
+          </Button>
         </Col>
       </Row>
     </>

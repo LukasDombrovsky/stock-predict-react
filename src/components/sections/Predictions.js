@@ -60,10 +60,7 @@ const Predictions = (props) => {
           Sorry. Loading of prediction data for charts failed.
         </h4>
         <Button
-          as="div"
-          variant="primary"
           type="button"
-          size="xl"
           onClick={props.getData}
           backgroundColor="#d91616"
           backgroundColorHover="#ee4b28"
