@@ -19,13 +19,13 @@ const Footer = () => {
           <p>
             <i className="fa fa-phone fa-2x"></i>
           </p>
-          <p>+421-940-063-988</p>
+          <p style={{ fontSize: "1.2rem" }}>+421-940-063-988</p>
         </Col>
         <Col className="text-white">
           <p>
             <i className="fa fa-envelope fa-2x"></i>
           </p>
-          <p>lukas.dombrovsky@gmail.com</p>
+          <p style={{ fontSize: "1.2rem" }}>lukas.dombrovsky@gmail.com</p>
         </Col>
       </Row>
     </>

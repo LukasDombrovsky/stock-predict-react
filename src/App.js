@@ -85,7 +85,7 @@ function App() {
           getData={getData}
         />
       </Section>
-      <Section id="contact" backgroundColor="#222222">
+      <Section id="contact" backgroundColor="#222222" narrow-width>
         <Footer />
       </Section>
     </>
