@@ -7,7 +7,7 @@ import Indicators from "./components/sections/Indicators";
 import Algorithms from "./components/sections/algorithms/Algorithms";
 import Optimalization from "./components/sections/Optimalization";
 import Predictions from "./components/sections/Predictions";
-import useHttp from "./components/hooks/use-http";
+import useHttp from "./hooks/use-http";
 
 import "./App.scss";
 import navBrand from "../src/img/navbar-brand.png";
